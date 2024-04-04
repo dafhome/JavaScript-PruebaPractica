@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+nav{
+    height: 10vh;
+    background-color: #013B96;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+.formulario{
+    margin-top: 4%;
+    margin-inline: 30%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 30%;
+    margin-top: 3%;
+}
+label, #transporte{
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+
+    
+}
+button{
+    background-color: #FFB601;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+#imagen, #texto {
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+#imagen{
+    background-color: black;
+    background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2018/06/15/5fa43d71a111f.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#texto{
+    background-color: #013B96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    line-height: 70px;
+}
+.carta{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
+    margin-top: 5%;
+    height: 60vh;
+    background-color: cadetblue;
+}
+

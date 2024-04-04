@@ -10,6 +10,10 @@ while (!validar){
     if (pelicula.toLowerCase() == "salir"){
         validar=true;
     }
+    //con esto controlo que no se introduzca un valor en blanco.
+    else if (pelicula==""){
+
+    }
     else {
         peliculasArray.push(pelicula);
     }

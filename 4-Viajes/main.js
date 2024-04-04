@@ -28,7 +28,6 @@ function elegirTransporte() {
         case "tren":
             i = 3;
             break;
-
         case "barco":
             i = 2;
             break;
